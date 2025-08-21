@@ -16,10 +16,12 @@
         "@biomejs/biome": "1.9.4",
         "@testing-library/dom": "^10.4.1",
         "@testing-library/react": "^16.3.0",
+        "@types/bun": "^1.2.20",
         "@types/react": "^19.1.10",
         "@types/react-dom": "^19.1.7",
         "@vitejs/plugin-react": "^4.7.0",
         "jsdom": "^26.1.0",
+        "pathe": "^2.0.3",
         "typescript": "^5.9.2",
         "vite": "^6.3.5",
         "vitest": "^3.2.4",
@@ -280,11 +282,15 @@
 
     "@types/babel__traverse": ["@types/babel__traverse@7.28.0", "https://registry.npmmirror.com/@types/babel__traverse/-/babel__traverse-7.28.0.tgz", { "dependencies": { "@babel/types": "^7.28.2" } }, "sha512-8PvcXf70gTDZBgt9ptxJ8elBeBjcLOAcOtoO/mPJjtji1+CdGbHgm77om1GrsPxsiE+uXIpNSK64UYaIwQXd4Q=="],
 
+    "@types/bun": ["@types/bun@1.2.20", "https://registry.npmmirror.com/@types/bun/-/bun-1.2.20.tgz", { "dependencies": { "bun-types": "1.2.20" } }, "sha512-dX3RGzQ8+KgmMw7CsW4xT5ITBSCrSbfHc36SNT31EOUg/LA9JWq0VDdEXDRSe1InVWpd2yLUM1FUF/kEOyTzYA=="],
+
     "@types/chai": ["@types/chai@5.2.2", "https://registry.npmmirror.com/@types/chai/-/chai-5.2.2.tgz", { "dependencies": { "@types/deep-eql": "*" } }, "sha512-8kB30R7Hwqf40JPiKhVzodJs2Qc1ZJ5zuT3uzw5Hq/dhNCl3G3l83jfpdI1e20BP348+fV7VIL/+FxaXkqBmWg=="],
 
     "@types/deep-eql": ["@types/deep-eql@4.0.2", "https://registry.npmmirror.com/@types/deep-eql/-/deep-eql-4.0.2.tgz", {}, "sha512-c9h9dVVMigMPc4bwTvC5dxqtqJZwQPePsWjPlpSOnojbor6pGqdk541lfA7AqFQr5pB1BRdq0juY9db81BwyFw=="],
 
     "@types/estree": ["@types/estree@1.0.8", "https://registry.npmmirror.com/@types/estree/-/estree-1.0.8.tgz", {}, "sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w=="],
+
+    "@types/node": ["@types/node@24.3.0", "https://registry.npmmirror.com/@types/node/-/node-24.3.0.tgz", { "dependencies": { "undici-types": "~7.10.0" } }, "sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow=="],
 
     "@types/react": ["@types/react@19.1.10", "https://registry.npmmirror.com/@types/react/-/react-19.1.10.tgz", { "dependencies": { "csstype": "^3.0.2" } }, "sha512-EhBeSYX0Y6ye8pNebpKrwFJq7BoQ8J5SO6NlvNwwHjSj6adXJViPQrKlsyPw7hLBLvckEMO1yxeGdR82YBBlDg=="],
 
@@ -317,6 +323,8 @@
     "assertion-error": ["assertion-error@2.0.1", "https://registry.npmmirror.com/assertion-error/-/assertion-error-2.0.1.tgz", {}, "sha512-Izi8RQcffqCeNVgFigKli1ssklIbpHnCYc6AknXGYoB6grJqyeby7jv12JUQgmTAnIDnbck1uxksT4dzN3PWBA=="],
 
     "browserslist": ["browserslist@4.25.3", "https://registry.npmmirror.com/browserslist/-/browserslist-4.25.3.tgz", { "dependencies": { "caniuse-lite": "^1.0.30001735", "electron-to-chromium": "^1.5.204", "node-releases": "^2.0.19", "update-browserslist-db": "^1.1.3" }, "bin": { "browserslist": "cli.js" } }, "sha512-cDGv1kkDI4/0e5yON9yM5G/0A5u8sf5TnmdX5C9qHzI9PPu++sQ9zjm1k9NiOrf3riY4OkK0zSGqfvJyJsgCBQ=="],
+
+    "bun-types": ["bun-types@1.2.20", "https://registry.npmmirror.com/bun-types/-/bun-types-1.2.20.tgz", { "dependencies": { "@types/node": "*" }, "peerDependencies": { "@types/react": "^19" } }, "sha512-pxTnQYOrKvdOwyiyd/7sMt9yFOenN004Y6O4lCcCUoKVej48FS5cvTw9geRaEcB9TsDZaJKAxPTVvi8tFsVuXA=="],
 
     "cac": ["cac@6.7.14", "https://registry.npmmirror.com/cac/-/cac-6.7.14.tgz", {}, "sha512-b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ=="],
 
@@ -529,6 +537,8 @@
     "tr46": ["tr46@5.1.1", "https://registry.npmmirror.com/tr46/-/tr46-5.1.1.tgz", { "dependencies": { "punycode": "^2.3.1" } }, "sha512-hdF5ZgjTqgAntKkklYw0R03MG2x/bSzTtkxmIRw/sTNV8YXsCJ1tfLAX23lhxhHJlEf3CRCOCGGWw3vI3GaSPw=="],
 
     "typescript": ["typescript@5.9.2", "https://registry.npmmirror.com/typescript/-/typescript-5.9.2.tgz", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A=="],
+
+    "undici-types": ["undici-types@7.10.0", "https://registry.npmmirror.com/undici-types/-/undici-types-7.10.0.tgz", {}, "sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag=="],
 
     "update-browserslist-db": ["update-browserslist-db@1.1.3", "https://registry.npmmirror.com/update-browserslist-db/-/update-browserslist-db-1.1.3.tgz", { "dependencies": { "escalade": "^3.2.0", "picocolors": "^1.1.1" }, "peerDependencies": { "browserslist": ">= 4.21.0" }, "bin": { "update-browserslist-db": "cli.js" } }, "sha512-UxhIZQ+QInVdunkDAaiazvvT/+fXL5Osr0JZlJulepYu6Jd7qJtDZjlur0emRlT71EN3ScPoE7gvsuIKKNavKw=="],
 

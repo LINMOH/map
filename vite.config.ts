@@ -1,7 +1,9 @@
-import { resolve } from "node:path";
 import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
+import { resolve } from "pathe";
 import { defineConfig } from "vite";
+
+const srcdir = resolve(import.meta.dirname, "src");
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -9,9 +11,9 @@ export default defineConfig({
 
 	resolve: {
 		alias: {
-			"@components": resolve(__dirname, "./src/components"),
-			"@assets": resolve(__dirname, "./src/assets"),
-			"@config": resolve(__dirname, "./src/config"),
+			"@components": resolve(srcdir, "components"),
+			"@assets": resolve(srcdir, "assets"),
+			"@config": resolve(srcdir, "config"),
 		},
 	},
 });

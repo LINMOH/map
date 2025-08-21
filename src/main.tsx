@@ -1,8 +1,8 @@
 import { RouterProvider } from "@tanstack/react-router";
 import ReactDOM from "react-dom/client";
 import "./assets/css/index.css";
-import { reportWebVitals } from "./reportWebVitals.ts";
-import { router } from "./router.tsx";
+import { reportWebVitals } from "./reportWebVitals";
+import { router } from "./router";
 
 // 渲染到根组件
 const rootElement = document.querySelector("#app");

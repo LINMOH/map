@@ -21,7 +21,13 @@
 	},
 	"javascript": {
 		"formatter": {
-			"quoteStyle": "double"
+			"quoteStyle": "double",
+			"trailingCommas": "all"
+		}
+	},
+	"json": {
+		"formatter": {
+			"trailingCommas": "none"
 		}
 	}
 }
