@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+a {
+	@apply hover:no-underline;
+}
