@@ -23,7 +23,7 @@ export const MemberCard = (props: ICardProps) => {
 	);
 
 	return (
-		<Card className="w-full h-full">
+		<Card>
 			{/* 上方概述 */}
 			<div className="flex mb-2">
 				{/* 头像 */}

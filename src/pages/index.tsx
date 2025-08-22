@@ -63,13 +63,13 @@ export const Index = () => {
 					{/* Team members */}
 					<div className="py-8">
 						<div className="text-center text-4xl font-bold mb-6">团队成员</div>
-						<div className="grid grid-cols-1 md:grid-cols-2 gap-8 gap-y-4">{memberCards}</div>
+						<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 p-4">{memberCards}</div>
 					</div>
 
 					{/* Projects */}
 					<div className="py-8">
 						<div className="text-center text-4xl font-bold mb-6">团队项目</div>
-						<div className="columns-1 md:columns-2 lg:columns-3 p-4">{projectCards}</div>
+						<div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 p-4">{projectCards}</div>
 					</div>
 
 					{/* Contact */}
