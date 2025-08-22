@@ -10,7 +10,7 @@ export const Card = (props: ICardProps) => {
 			href={blogWebsite}
 			target="_blank"
 			rel="noopener noreferrer"
-			className="dark:text-blue-400 dark:hover:text-blue-200 transition-colors"
+			className="text-blue-400 hover:text-blue-500 dark:hover:text-blue-200 transition-colors"
 		>
 			{pureBlogWebsite}
 		</a>
@@ -19,7 +19,7 @@ export const Card = (props: ICardProps) => {
 	);
 
 	return (
-		<div className="w-full p-4 rounded-2xl shadow-md dark:bg-gray-700 hover:shadow-xl transition-shadow">
+		<div className="w-full p-4 rounded-2xl shadow-md dark:bg-gray-700 hover:shadow-xl transition-shadow bg-zinc-200">
 			<div className="flex">
 				{/* Avatar */}
 				<img
@@ -39,7 +39,7 @@ export const Card = (props: ICardProps) => {
 			</div>
 
 			{/* Skills */}
-			<div className="dark:border-l-blue-200 border-l-4 my-4 px-2 dark:bg-gray-600 rounded-r-md">
+			<div className="dark:border-l-blue-200 border-l-4 my-4 px-2 dark:bg-gray-600 rounded-r-md border-l-blue-400">
 				<div className="font-bold mb-1 text-gray-500 dark:text-gray-200">
 					专长
 				</div>

@@ -1,6 +1,6 @@
 export const ProjectCard = (props: IProjectCardProps) => {
 	return (
-		<div className="w-full dark:bg-gray-600 p-4 rounded-2xl shadow-md hover:shadow-xl transition-shadow">
+		<div className="w-full dark:bg-gray-600 bg-zinc-300 p-4 rounded-2xl shadow-md hover:shadow-xl transition-shadow">
 			<a href={props.targetUrl}>
 				<img
 					src={props.imageUrl}
