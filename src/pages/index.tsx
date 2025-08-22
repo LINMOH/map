@@ -61,10 +61,10 @@ export const Index = () => {
 
 				{/* About us */}
 				<div className="py-16 dark:bg-gray-700 rounded-t-2xl">
-					<div className="text-center text-6xl font-bold mb-6 underline-before">
+					<div className="text-center text-6xl font-bold mb-8 before:-bottom-4 before:left-[40%] before:w-[20%] before:h-1 relative before:absolute before:bg-gray-100">
 						关于我们
 					</div>
-					<div className="px-8 text-xl">
+					<div className="px-8 text-xl lg:px-64 md:px-32 sm:px-16">
 						TATEN
 						是一个充满活力的计算机科学交流团队，汇聚了来自不同背景的技术爱好者，成员年龄从小学六年级到高中三年级。
 						我们致力于探索计算机科学的前沿领域，分享知识与经验，共同成长。
@@ -74,7 +74,7 @@ export const Index = () => {
 
 				{/* Team members */}
 				<div className="py-16 dark:bg-slate-800">
-					<div className="text-center text-6xl font-bold mb-6 before-underline">
+					<div className="text-center text-6xl font-bold mb-6 before:-bottom-4 before:left-[40%] before:w-[20%] before:h-1 relative before:absolute before:bg-gray-100">
 						团队成员
 					</div>
 					<div className="columns-1 md:columns-2 lg:columns-3 p-4">
@@ -84,7 +84,7 @@ export const Index = () => {
 
 				{/* Projects */}
 				<div className="py-16 dark:bg-gray-700">
-					<div className="text-center text-6xl font-bold mb-6 before-underline">
+					<div className="text-center text-6xl font-bold mb-6 before:-bottom-4 before:left-[40%] before:w-[20%] before:h-1 relative before:absolute before:bg-gray-100 before:z-10">
 						项目
 					</div>
 					<div className="columns-1 md:columns-2 lg:columns-3 p-4">
