@@ -1,16 +1,14 @@
-<div style="text-align='center'">
+<div style="text-align: center;">
 
-#TATEN
+# TATEN
 
 一群热爱编程的学生，致力于探索技术的无限可能。
 
 [TATEN 官网](https://taten.xyz) | [GitHub 主页](https://github.com/tatencn)
 
-</div>
+![Hero](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1000&width=435&lines=Technology+Algorithms+Thread+Engineering+Networks)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1000&width=435&lines=Technology+Algorithms+Thread+Engineering+Networks)](https://git.io/typing-svg)
-
-[![image](https://s1.imagehub.cc/images/2025/08/01/7cd347c729deba6b66bc09d6bf48a631.png)](https://www.imagehub.cc/image/image.Im3emI)
+![Website Preview](./public/preview.png)
 
 </div>
 
@@ -71,8 +69,4 @@ TATEN 是一个由各地的初中生与高中生自发组织的技术交流团�
 
 ---
 
-<div id="title" align=center>
-
-© TATEN – Since 2025
-
-</div>
+<div style="text-align: center;">© TATEN – Since 2025</div>
