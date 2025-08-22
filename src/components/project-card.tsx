@@ -1,6 +1,6 @@
 export const ProjectCard = (props: IProjectCardProps) => {
 	return (
-		<div className="w-full bg-white p-4 rounded-2xl shadow-md">
+		<div className="w-full dark:bg-gray-600 p-4 rounded-2xl shadow-md hover:shadow-xl transition-shadow">
 			<a href={props.targetUrl}>
 				<img
 					src={props.imageUrl}
@@ -9,7 +9,7 @@ export const ProjectCard = (props: IProjectCardProps) => {
 				/>
 
 				<div className="text-center text-xl">{props.title}</div>
-				<div>{props.description}</div>
+				<div className="text-center">{props.description}</div>
 			</a>
 		</div>
 	);

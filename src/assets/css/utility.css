@@ -1,0 +1,12 @@
+@reference "tailwindcss";
+
+/**
+ * 使用伪类创建下划线
+ * 默认为宽度为20%居中, 高度为1
+ * 默认颜色继承
+ */
+.underline-before {
+	@apply relative before:absolute;
+	@apply before:-bottom-2 before:left-[40%] before:w-[20%] before:h-1;
+	@apply before:bg-inherit;
+}
