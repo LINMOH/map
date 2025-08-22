@@ -4,7 +4,6 @@
     "": {
       "name": "taten-website",
       "dependencies": {
-        "@fortawesome/react-fontawesome": "^3.0.0",
         "@tailwindcss/vite": "^4.1.12",
         "@tanstack/react-devtools": "^0.2.2",
         "@tanstack/react-router": "^1.131.27",
@@ -154,12 +153,6 @@
     "@esbuild/win32-ia32": ["@esbuild/win32-ia32@0.25.9", "https://registry.npmmirror.com/@esbuild/win32-ia32/-/win32-ia32-0.25.9.tgz", { "os": "win32", "cpu": "ia32" }, "sha512-b33gLVU2k11nVx1OhX3C8QQP6UHQK4ZtN56oFWvVXvz2VkDoe6fbG8TOgHFxEvqeqohmRnIHe5A1+HADk4OQww=="],
 
     "@esbuild/win32-x64": ["@esbuild/win32-x64@0.25.9", "https://registry.npmmirror.com/@esbuild/win32-x64/-/win32-x64-0.25.9.tgz", { "os": "win32", "cpu": "x64" }, "sha512-PPOl1mi6lpLNQxnGoyAfschAodRFYXJ+9fs6WHXz7CSWKbOqiMZsubC+BQsVKuul+3vKLuwTHsS2c2y9EoKwxQ=="],
-
-    "@fortawesome/fontawesome-common-types": ["@fortawesome/fontawesome-common-types@7.0.0", "https://registry.npmmirror.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-7.0.0.tgz", {}, "sha512-PGMrIYXLGA5K8RWy8zwBkd4vFi4z7ubxtet6Yn13Plf6krRTwPbdlCwlcfmoX0R7B4Z643QvrtHmdQ5fNtfFCg=="],
-
-    "@fortawesome/fontawesome-svg-core": ["@fortawesome/fontawesome-svg-core@7.0.0", "https://registry.npmmirror.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-7.0.0.tgz", { "dependencies": { "@fortawesome/fontawesome-common-types": "7.0.0" } }, "sha512-obBEF+zd98r/KtKVW6A+8UGWeaOoyMpl6Q9P3FzHsOnsg742aXsl8v+H/zp09qSSu/a/Hxe9LNKzbBaQq1CEbA=="],
-
-    "@fortawesome/react-fontawesome": ["@fortawesome/react-fontawesome@3.0.0", "https://registry.npmmirror.com/@fortawesome/react-fontawesome/-/react-fontawesome-3.0.0.tgz", { "dependencies": { "semver": "^7.7.2" }, "peerDependencies": { "@fortawesome/fontawesome-svg-core": "~6 || ~7", "react": "^18.0.0 || ^19.0.0" } }, "sha512-x6boc1RLEjf/QPrMS20VJcabTZeGCb1hbwNybPPLjJohGPowXfjOpwQlVK6aH6MVKfCq2JXeHRIlx+tYpS18FA=="],
 
     "@isaacs/fs-minipass": ["@isaacs/fs-minipass@4.0.1", "https://registry.npmmirror.com/@isaacs/fs-minipass/-/fs-minipass-4.0.1.tgz", { "dependencies": { "minipass": "^7.0.4" } }, "sha512-wgm9Ehl2jpeqP3zw/7mo3kRHFp5MEDhqAdwy1fTGkHAwnkGOVsgpvQhL8B5n1qlb01jV3n/bI0ZfZp5lWA1k4w=="],
 
@@ -493,7 +486,7 @@
 
     "scheduler": ["scheduler@0.26.0", "https://registry.npmmirror.com/scheduler/-/scheduler-0.26.0.tgz", {}, "sha512-NlHwttCI/l5gCPR3D1nNXtWABUmBwvZpEQiD4IXSbIDq8BzLIK/7Ir5gTFSGZDUu37K5cMNp0hFtzO38sC7gWA=="],
 
-    "semver": ["semver@7.7.2", "https://registry.npmmirror.com/semver/-/semver-7.7.2.tgz", { "bin": { "semver": "bin/semver.js" } }, "sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA=="],
+    "semver": ["semver@6.3.1", "https://registry.npmmirror.com/semver/-/semver-6.3.1.tgz", { "bin": { "semver": "bin/semver.js" } }, "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA=="],
 
     "seroval": ["seroval@1.3.2", "https://registry.npmmirror.com/seroval/-/seroval-1.3.2.tgz", {}, "sha512-RbcPH1n5cfwKrru7v7+zrZvjLurgHhGyso3HTyGtRivGWgYjbOmGuivCQaORNELjNONoK35nj28EoWul9sb1zQ=="],
 
@@ -580,10 +573,6 @@
     "yallist": ["yallist@5.0.0", "https://registry.npmmirror.com/yallist/-/yallist-5.0.0.tgz", {}, "sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw=="],
 
     "@asamuzakjp/css-color/lru-cache": ["lru-cache@10.4.3", "https://registry.npmmirror.com/lru-cache/-/lru-cache-10.4.3.tgz", {}, "sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ=="],
-
-    "@babel/core/semver": ["semver@6.3.1", "https://registry.npmmirror.com/semver/-/semver-6.3.1.tgz", { "bin": { "semver": "bin/semver.js" } }, "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA=="],
-
-    "@babel/helper-compilation-targets/semver": ["semver@6.3.1", "https://registry.npmmirror.com/semver/-/semver-6.3.1.tgz", { "bin": { "semver": "bin/semver.js" } }, "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA=="],
 
     "@tailwindcss/oxide-wasm32-wasi/@emnapi/core": ["@emnapi/core@1.4.5", "https://registry.npmmirror.com/@emnapi/core/-/core-1.4.5.tgz", { "dependencies": { "@emnapi/wasi-threads": "1.0.4", "tslib": "^2.4.0" }, "bundled": true }, "sha512-XsLw1dEOpkSX/WucdqUhPWP7hDxSvZiY+fsUC14h+FtQ2Ifni4znbBt8punRX+Uj2JG/uDb8nEHVKvrVlvdZ5Q=="],
 
