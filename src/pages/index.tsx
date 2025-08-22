@@ -32,7 +32,7 @@ export const Index = () => {
 	));
 
 	return (
-		<div className="bg-linear-to-br from-blue-500 to-violet-500 text-zinc-900 dark:text-gray-100">
+		<div className="bg-linear-to-br from-blue-500 to-violet-500 text-[#4a5568] dark:text-gray-100 font-[思源黑体]">
 			<div
 				style={{
 					backgroundImage: `
@@ -51,7 +51,7 @@ export const Index = () => {
 								transform: `translateY(${scrollY * 0.4}px)`, // 根据滚动位置动态调整 translateY
 							}}
 						>
-							<div className="text-center text-9xl mb-4 tracking-wider">
+							<div className="text-center text-8xl mb-4 tracking-wider">
 								TATEN
 							</div>
 							<div className="text-center text-4xl">计算机科学交流团队</div>
@@ -59,11 +59,11 @@ export const Index = () => {
 					</div>
 
 					{/* About us */}
-					<div className="py-16 dark:bg-gray-700 rounded-t-2xl bg-zinc-200">
-						<div className="text-center text-6xl font-bold mb-8 before:-bottom-4 before:left-[40%] before:w-[20%] before:h-1 relative before:absolute before:dark:bg-gray-100 before:bg-blue-300">
+					<div className="py-32 dark:bg-gray-700 rounded-t-2xl bg-zinc-200">
+						<div className="text-center text-6xl font-bold mb-8 before:-bottom-4 before:left-[42.5%] before:w-[15%] before:h-1 relative before:absolute before:dark:bg-gray-100 before:bg-blue-300 text-[#2d3748]">
 							关于我们
 						</div>
-						<div className="px-8 text-xl lg:px-64 md:px-32 sm:px-16">
+						<div className="px-8 text-xl lg:px-64 md:px-32 sm:px-16 leading-8">
 							TATEN
 							是一个充满活力的计算机科学交流团队，汇聚了来自不同背景的技术爱好者，成员年龄从小学六年级到高中三年级。
 							我们致力于探索计算机科学的前沿领域，分享知识与经验，共同成长。
@@ -72,8 +72,8 @@ export const Index = () => {
 					</div>
 
 					{/* Team members */}
-					<div className="py-16 dark:bg-slate-800 bg-zinc-300">
-						<div className="text-center text-6xl font-bold mb-6 before:-bottom-4 before:left-[40%] before:w-[20%] before:h-1 relative before:absolute before:dark:bg-gray-100 before:bg-blue-300">
+					<div className="py-23 dark:bg-slate-800 bg-zinc-300">
+						<div className="text-center text-6xl font-bold mb-6 before:-bottom-4 before:left-[42%] before:w-[16%] before:h-1 relative before:absolute before:dark:bg-gray-100 before:bg-blue-300 text-[#2d3748]">
 							团队成员
 						</div>
 						<div className="columns-1 md:columns-2 lg:columns-3 p-4">
@@ -82,9 +82,9 @@ export const Index = () => {
 					</div>
 
 					{/* Projects */}
-					<div className="py-16 dark:bg-gray-700 bg-zinc-200">
-						<div className="text-center text-6xl font-bold mb-6 before:-bottom-4 before:left-[40%] before:w-[20%] before:h-1 relative before:absolute before:dark:bg-gray-100 before:bg-blue-300">
-							项目
+					<div className="py-32 dark:bg-gray-700 bg-zinc-200">
+						<div className="text-center text-6xl font-bold mb-6 before:-bottom-3 before:left-[40%] before:w-[20%] before:h-1 relative before:absolute before:dark:bg-gray-100 before:bg-blue-300 text-[#2d3748]">
+							我们的项目
 						</div>
 						<div className="columns-1 md:columns-2 lg:columns-3 p-4">
 							{projectCards}
@@ -92,8 +92,8 @@ export const Index = () => {
 					</div>
 
 					{/* Contact */}
-					<div className="py-8 dark:bg-black bg-white">
-						<div className="text-center text-6xl font-bold mb-6 before-underline">
+					<div className="py-16 dark:bg-black bg-white">
+						<div className="text-center text-4xl font-bold mb-6 before:-bottom-2 before:left-[45%] before:w-[10%] before:h-1 relative before:absolute before:dark:bg-gray-100 before:bg-blue-300 text-[#2d3748]">
 							联系我们
 						</div>
 						<div>

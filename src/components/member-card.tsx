@@ -30,7 +30,7 @@ export const Card = (props: ICardProps) => {
 				{/* Name and blog website */}
 				<div className="flex items-center">
 					<div>
-						<div className="text-2xl text-gray-500 dark:text-gray-200">
+						<div className="text-2xl text-gray-900 dark:text-gray-200">
 							{name}
 						</div>
 						<div>{blogWebsiteLink}</div>
@@ -47,7 +47,7 @@ export const Card = (props: ICardProps) => {
 			</div>
 
 			{/* Introduction */}
-			<div>{introduction}</div>
+			<div className="text-gray-600 leading-7">{introduction}</div>
 		</div>
 	);
 };
