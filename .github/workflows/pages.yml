@@ -2,7 +2,7 @@ name: "发布到 Github Pages"
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   workflow_dispatch:
 
 permissions:
