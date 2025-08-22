@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@utility component {
+	@apply text-[#1e293b] bg-[#f1f5f9];
+	@variant dark {
+		@apply text-[#f1f5f9] bg-[#0f172a];
+	}
+}
+
+@utility card {
+	@apply border-2 rounded-2xl p-4 m-4 shadow-lg;
+	@apply border-[#e2e8f0] bg-white;
+
+	@variant dark {
+		@apply bg-[#1e293b] border-[#334155];
+	}
+}

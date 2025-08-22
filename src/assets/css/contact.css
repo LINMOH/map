@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+.contact {
+	@apply py-8;
+}
+
+.contact-subtitle {
+	@apply text-xl text-center mt-6 mb-4;
+}
+
+.contact-title {
+	@apply text-center text-4xl font-bold mb-16;
+}
+
+.contact-item {
+	@apply border-4 text-center text-2xl p-4 rounded-2xl shadow-lg w-md block transition;
+	@apply border-[#3b82f6] hover:bg-[#3b82f6];
+
+	@apply text-black hover:text-white;
+
+	@variant dark {
+		@apply text-[#f1f5f9];
+	}
+}

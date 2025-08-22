@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
-a {
-	@apply hover:no-underline;
+html {
+	@apply text-[#1e293b] bg-[#f1f5f9];
+	@apply dark:text-[#f1f5f9] dark:bg-[#0f172a];
 }

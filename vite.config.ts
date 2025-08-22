@@ -14,6 +14,7 @@ export default defineConfig({
 			"@components": resolve(srcdir, "components"),
 			"@assets": resolve(srcdir, "assets"),
 			"@config": resolve(srcdir, "config"),
+			"@utility": resolve(srcdir, "utility"),
 		},
 	},
 });
